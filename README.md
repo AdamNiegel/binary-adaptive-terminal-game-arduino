@@ -1,9 +1,6 @@
 # binary-adaptive-terminal-game-arduino (4/24/26)
+
 Adaptive Binary Coding Game System using Arduino + I2C LCD
-
-This project is an Arduino-based interactive learning system that gamifies binary-to-hexadecimal conversion. It simulates a mini “computer terminal” where users input binary data using physical buttons, and the system evaluates the input against randomly generated challenges. It includes an adaptive difficulty engine that adjusts based on user performance, making the experience dynamic and progressively challenging.
-
-
 
 ## How it works
 The system generates a random hexadecimal value and converts it into its binary equivalent internally. The user must reconstruct the correct 8-bit binary sequence using two input buttons (0 and 1). Once the ENTER button is pressed, the system checks the answer, updates the score, and adjusts the difficulty level based on performance.
